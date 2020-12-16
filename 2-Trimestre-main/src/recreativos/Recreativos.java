@@ -5,7 +5,7 @@ public class Recreativos {
 	public static int pintaMenu() {
 		 
 		//Guardar un nuevo juego
-		//Poner puntuación a un juego
+		//Poner puntuaciÃ³n a un juego
 		//Ver todos los juegos
 		
 	}
@@ -17,10 +17,10 @@ public class Recreativos {
 	public static void guardarJuego(Juego vJuegos[]) {
 		//Pedir los datos del juego con try- cacth
 		
-		//Buscar posción libre en el vector
+		//Buscar posciÃ³n libre en el vector
 		for (int i = 0; i < vJuegos.length; i++) {
 			if (vJuegos[i] == null) {
-				vJuegos[i] = new Juego()
+				vJuegos[i] = new Juego();
 			}
 		}
 	}
